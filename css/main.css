@@ -1,22 +1,103 @@
 body {
-  background-color: #363533; }
+  font-family: "Courgette", serif;
+  font-size: 14px;
+  color: #fff;
+  background: #363533; }
 
-header {
-  background-color: #0d0707;
-  height: 80px; }
+h1, h2, h3, h4, h5 {
+  font-family: "Courgette", serif;
+  color: #FE9A2E;
+  margin: 0;
+  padding: 0; }
 
-.list-ib {
-  display: inline-block;
-  padding: 30px 8px;
-  font-family: "Courgette", serif; }
+p {
+  font-family: "Kalam"; }
 
-.list-ib a {
-  color: #fffafa; }
+a {
+  font-family: "Kalam", sans-serif;
+  font-weight: italic;
+  color: #fff; }
 
 a:hover {
-  color: #fffafa; }
+  text-decoration: none;
+  color: #FE9A2E; }
 
-.col-md-6 img {
-  height: 90px; }
+header {
+  background: #0d0707;
+  margin: 0;
+  padding: 0; }
+
+header img {
+  max-width: 50%; }
+
+.lista-menu {
+  margin-top: 3%;
+  font-family: "Kalam", sans-serif; }
+
+.lista-menu a {
+  margin-left: 25%; }
+
+.hero-section .container {
+  background: url(../image/header-image.jpg);
+  background-size: cover;
+  background-position: top;
+  padding: 150px 150px;
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+.hero-section .hero-image {
+  background: #363533;
+  padding: 8% 2%; }
+
+.hero-section h1 {
+  font-size: 65px;
+  margin-bottom: 5%;
+  font-weight: bold; }
+
+.content-text {
+  background: #0d0707; }
+
+.content-text h4 {
+  padding-top: 5%; }
+
+.content-text p {
+  padding-bottom: 8%; }
+
+.more-content .container {
+  padding: 0; }
+
+.more-content .container .col-md-8 {
+  background: #0d0707;
+  padding: 0; }
+
+.more-content .more-content-text {
+  background: #0d0707;
+  padding: 3% 2%; }
+
+.more-content .more-content-text h4 {
+  padding-bottom: 5px; }
+
+.more-content .more-content-text input {
+  background: #363533;
+  border: none; }
+
+.more-content .col-md-4 .more-content-text:nth-child(2) {
+  margin-top: 4%; }
+
+.more-content i {
+  font-size: 20px;
+  background: #363533;
+  border-radius: 50%;
+  padding: 2% 3%;
+  margin-right: 5%; }
+
+footer {
+  background: #0d0707;
+  margin-top: 3%; }
+
+footer p {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
